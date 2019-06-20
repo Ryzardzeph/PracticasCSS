@@ -3,11 +3,15 @@ body{
     margin: 0px;
     padding: 0px;
 }
-a{
-    text-decoration: none;
+header, nav, article, footer{
+    width: 100%;
+    margin: auto;
+}
+section img{
+   width: 100%;
 }
 nav{
-    height: 40px;
+    height: 50px;
     background-color: cadetblue;
 }
 nav ul{
@@ -19,8 +23,9 @@ nav ul li{
     float: left;
 }
 nav ul li a{
+    text-decoration: none;
     color:black;
-    line-height: 40px;
+    line-height: 50px;
     padding: 0px 20px;
     display: block;
 }
@@ -33,4 +38,14 @@ nav ul li a:hover{
 .active{
     color:white;
     background-color: darkslategrey;
+}
+
+.logo{
+    float: left;
+    width: 2.5%;
+}
+
+.red_social{
+    float: right;
+    width: 2.5%;
 }
