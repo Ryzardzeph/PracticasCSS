@@ -61,6 +61,7 @@ nav ul li a:hover{
 
 
 /* estilos 5 - 6 */
+/*
 body{
     margin:0px;
     padding: 0px;
@@ -152,4 +153,39 @@ header{
 }
 a{
     text-decoration: none;
+}
+*/
+
+/*estilo 7*/
+.contenedor{
+    padding: 5px;
+    width: 800px;
+    margin:auto;
+    border: 1px solid #ccc;
+}
+
+.img {
+    background-color: lemonchiffon;
+    height: 180px;
+}
+
+.img img {
+   width: 11em;
+}
+
+.col-nivel1{
+    margin:5px;
+    width: 380px;
+    float: left;
+}
+
+.col-nivel2{
+    margin:5px;
+    width: 195px;
+    float: left;
+}
+.clear:after{
+    content:  " ";
+    display: block;
+    clear:both;
 }
