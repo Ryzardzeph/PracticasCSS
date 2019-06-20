@@ -157,6 +157,7 @@ a{
 */
 
 /*estilo 7*/
+/*
 .contenedor{
     padding: 5px;
     width: 800px;
@@ -188,4 +189,63 @@ a{
     content:  " ";
     display: block;
     clear:both;
+}
+*/
+
+/*estilo 8*/
+@media (max-width:380px){
+       body{
+           background-color: whitesmoke;
+       }
+       .contenedor{
+           width: 80%;
+           margin:auto;
+           background-color: darkslategrey;
+           padding: 10px;
+       }
+       .cel{
+           color:whitesmoke;
+           text-align: center;
+       }
+       .tablet, .pc{
+           display: none;
+       }
+}
+
+@media (min-width:381px)and (max-width:800px){
+    body{
+        background-color: whitesmoke;
+    }
+    .contenedor{
+        width: 80%;
+        margin:auto;
+        background-color: rgb(236, 57, 102);
+        padding: 10px;
+    }
+    .tablet{
+        color:rgb(255, 255, 255);
+        text-align: center;
+    }
+    .cel, .pc{
+        display: none;
+    }
+}
+
+@media (min-width:801px){
+    body{
+        background-color: rgb(231, 159, 159);
+    }
+    .contenedor{
+        width: 80%;
+        margin:auto;
+        background-color: rgba(38, 106, 138, 0.822);
+        padding: 10px;
+    }
+    .pc{
+        color:rgb(255, 255, 255);
+        text-align: center;
+    }
+    .cel, .tablet{
+        display: none;
+    }
 }
