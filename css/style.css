@@ -16,8 +16,10 @@ nav{
 }
 nav ul{
     list-style: none;
-    margin:0px;
+    margin:auto;
     padding: 0px;
+    height: 50px;
+    width: 500px;
 }
 nav ul li{
     float: left;
@@ -26,15 +28,19 @@ nav ul li a{
     text-decoration: none;
     color:black;
     line-height: 50px;
-    padding: 0px 20px;
+     width: 100px;
     display: block;
+    text-align: center;
 }
 
 nav ul li a:hover{
     color:white;
     background-color: darkslategrey;
-}
 
+}
+.limpia{
+    clear: both;
+}
 .active{
     color:white;
     background-color: darkslategrey;
