@@ -59,3 +59,97 @@ nav ul li a:hover{
 }
 */
 
+
+/* estilos 5 - 6 */
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+.col-center{
+    width: 100%;
+    margin: auto;
+}
+.redes .logo{
+    float: left;
+    width: 5%;
+    
+}
+.redes{
+    
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.redes li{
+
+    margin-left:10px;
+}
+
+.redes .red_social{
+    width: 5%;
+    float: right;
+  }
+header{
+    height: 80px;
+}
+.section-top{
+    background-image: url('../img/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    padding-top: 40px;
+
+    }
+.content-left{
+    float: left;
+    width: 40%;
+    color:whitesmoke;
+    background-color: rgba(0,0,0,.4);
+    padding: 10px;
+    border-radius: 2px;
+    margin: 1em;
+    text-align: justify;
+}
+
+.content-right {
+    float:right;
+    width: 40%;
+    height: 22em;
+    text-align: center;
+    background-color: rgba(255,255,255,.4);
+    color:whitesmoke;
+    padding: 1px;
+    margin: 1em;
+}
+.input{
+    width: 75%;
+    padding: 0.7em;
+    margin: 0.3em;
+}
+
+.button{
+    background-color: darkcyan;
+    padding: 8px;
+    color: whitesmoke;
+    border: 0px;
+}
+
+.button:hover{
+    background-color: rgb(2, 53, 53);
+    padding: 8px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.center-text{
+    text-align: center;
+}
+.margin-top{
+    margin-top: 35px;
+}
+a{
+    text-decoration: none;
+}
